@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Comic Sans MS, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfb6b6a2;
+        }
+
+        header {
+            background-color: #8338389d;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #faf8f8c9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(182, 162, 162, 0.315);
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .about img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .resume {
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #030000dc;
+            color: hsla(55, 16%, 84%, 0.945);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Arpit Mahalle</h1>
+        <p>Web Developer</p>
+    </header>
+    <div class="container">
+        <section class="about">
+            <img src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhUQEBIVFRUWEhAVFRUVFxcXEhUVFRUWFhUYFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGg8QGCsdHR0rKysrKy0tKystLSsrKystLSstLS0tLS0rLSsrKy0tKy03LSstKy0tNy0tNystKystK//AABEIAOAA4AMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIEBQMGBwj/xAA9EAACAQIDBAgEBAQFBQAAAAAAAQIDEQQSIQUxQVEGBxMiYXGBoTKRscEjQlLRFGJy8BVDgrLCM2Oi4fH/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAhEQEBAAMAAgIDAQEAAAAAAAAAAQIDESExEkEiMlEEE//aAAwDAQACEQMRAD8A7gCFAngAgoAAAAMAAAOAAAAAAgqEAACAAAAAAAAAAAAAIKAwQAAQAAAGAAAI4AAoAAAAAAAAAAAAAAAAABcAAAAAAAQIAogAAAAAACB0FEAUAQAAAAAABwABQAAAAAAAAAAAAAAAFftfbFHDRzVZWvuS+J+Rj6RbZhhKLqz14Rj+qXBHDekPSOriajnOT8LcFyQc6Vrf9sdOastKK7OPN6yf2RrsulWKi7qtO/8AVx8jUKWMe5ydiTUxsXpx8HoV8U9bLT6c42DT7Vvwkk0zY9jdZS0jiYcfjhw84nNKtJtaa/3xZjXJ6fQOQ+16M2ftClXgqlKSlF8Vz5PkyUcK6NdJq+EksjvFtZoP4X+z8TsWw9t0sVTU6b1t3oN96PmuXiTxSyAUCeAgAAAgCiAAAAAAAAA4AAoAAAAAAAAAADoACXIW2caqNCpVluhCT9tPcXQ411jbcdfETUZXhB5ILhp8Tt5mnUouTtG93yM+Im5zvzbNs2DsaKSlJahlnMYrHXc6rtl9GKlSzlfyRf0uhj4Ra8WbTs1W0ii4pz4NeZy3dbXVNOM+nNsX0blHS9rcipxOwqjR1bF4dN6RsQKmFXImf6LD/wCGNcjrUZwdpXNi6P7QlQdOtCWqlZq9nLXvLyNk2psSlVXeXrxNK2rgHSqZE3l3o6cNsz8OfZpuHl6CozzJS5pP5oea50Bx/a4OF224twd/Dd7GxlsgAAAIAMBAgCiAAAAAOAAKAAAAAAEAAAAzpg1PrMrOOBmkvicE/BXT+xthQdOqCnga6tuhmXnFpgHDtk0lKpG64nQ8JSslwNK6OU1mc3+VErG4rESfdlbwM9s+V46Nd+Mb9h8ZGOisTIbQT4HKlWxUXdy0Nj2NtCc9Gc+evk710YZzL6b2sSgqYmj+acV6o1/adKpkTTto7mqYmh2k+9Nry3k4YS+6M7Z6b7WdOTtCab5XNE6YU8tSL5llQ2bGCXflfxvcTpFhZSoqctXCWkuLT5m2vmOTPPuWPlsHVLL8Gsv+5H/ab8aP1U0msPUlbfVsvSK/c3g63EAAAAAAEDQAAAAAAHAAFAAAAAIDEIyoAANZn0ytkLatKNSlUpy3ShJfNEqTKrb1KU6FSMdG4u3mtUK1eOPXI9gUcvap8Hb5XMdXM5ZU8l7vO1fXgkW2BopSn4pX8x9TZ8ZbyLskva6ZrvOKXA1KmSaqVNdMispZtdbvgrfUsuj1JuavprryJMNmxW5WLXYuDvLurRb2Z7Nss8NMNfxX+1MF+Grao51tbZU3dJyUr6NXtb0OtTgpU0lwK2WBjLW2pnr2fGl+88tFw+ElGMFGpKcnftFK+TwyX1ReY6g5YScWtVl+qLz/AA+O/KMxMFGErK+m7nxKu3uXVTDmPEnoJTVLDqg1aavOf+tu3svY2Yo+jDUoyqLTM4353SsXh3a7bjLXBskmVkAABSCMAYCAAAAAQUQAcAAUAACCtAEBjGzLKnCtjZMTMMlIjq5BNkau9H5GSciLVkKtJ4cuwFNwq1M19Xo+GjLWjNEnbWz3Cbko913d1uV99+RSyq2MMp11Y5LSrVIOI21VpWhC1r3d3Yp9p7YcO6vV8iHTkpvNJTl6Ow8NX9Vdnb4dBwXSGUqfcyuV1pKVvsXmHruUVKSs2tUjnGHw0XrkqJ6br6W5E/8AxqrRSilJ+El9yctX8LvPcb5LEJLUi1pN3Ud7K3D4vtIqe663FpsjDupLfa2ruRjjbeHbMZ1c7Dw+Snbm/wC/uWQynBJJLgPPTwnMZHm5XttAAA0kYAAgAAAAEFYgA4QAAAAEbFaZGYZsfORHlIytXjD3IxykMlMZKRLThZSI1RjpTMFSYqaPi4qUXHmmjQcVC0mnvTsb5Vkaf0ohlmpr8yu/NE1eF4p40Itu6M1JVKbvCN0QMPtGOazLOljldEX5RvjlFtgcZipf5aV/FXLN4aOXvq7e8qsLtVJmTFbchbeTflVXKfabQSj3VuNs6N0LQc/1bvJGh4HEOru3c+fkdNwFuzhltbLHdu3G2jH8uuX/AEZ/jxIAAOtyEAAEAACAAKIAAAAACgJcLk9MoybFbMc2TacjHUZGqMkTkRajIrWMUpjXIZORhlMlR0pmGpMbOoQMfj6dOLnUkopcWxBnqzNa23Ltc7jrGjKEJv8Amms1vZFJtTrAjmcMNBy/nlpH0jxLHqmxsassVh63e7VQm773vUvqiv8AnedqZskrXsTgoyd7a89wkKUo6Jm3bb6POhO2+D+CXNcn4lQqGpjc7PFdeMl8xEw2Fqz42RaYXYsLpyvJ+O75EjCYcsqUUlqZ3ZVfCM+BwmsYRWraSJPQrb0YVquBnK6jVqqi3xWZ3jf3QqxP8PhamOl+lxornKXdUvn7I5L/ABMlLNd3ve99b8/M7NGFk7ftxf6NkuXJ9PSdwOLbB6xsVQahWfbQ0+LSaXhLj6nT9g9J8Li0nSnaXGEtJr04+hvY55eroAARgAARkFABggAAgYFxtwJUVyMcpCSZjlMmnCTkRa0gr1opXk0lzbsjVNr9M6FO8af4svDSHq+PoLlvo+ye19UmU209u0KV801f9MdZfJbvU0jafSXE1rpzyx/TDRer3sp3L++Jc1f1nlu/jZMf0tqzuqUVBc3rL30RpvSHHTqPvScnzbv8iZN6FVjrRs5Xs768PA2mEjH523ygwvFeZe9C9qfw+MpVG+65ZJf0z0+timq2autUYWws7FyvTs6UK0Ozqap7uafNGj7d2NUw87vWL3S4P9mXvQvan8ThKVW+uXLL+qOj90Xdaoqj7OSvCzTXN2OPPCZeHThncXP6WIstbIk7Fw08bWUFfsYtOpLg1+n1Je1Oh0nXpxhUfYyzOTt3oKKu/O+5Gx4OvTwtSOGSUKbXd5p2veT8fEjXp89ybbN/48xaj1s7TS7LBwslFZ5JfKC+VzmbfMtek20niMTVrcJTeX+laR9kimnG+89CennW+TMVwaJOz8U4yVnZ8CJ2P8zfgzHCX4iRSXTdidOsTRtGo+1jyk+8vKX7nQNi9KMNidITyz/RPSXpwfocPiZIVGnoRcTmdj0MmKcd2P02xVCycu0gvyz1fpLebvsXp1hazUZ3pTfCXwt+Ev3sRZY0mUraxBtOpGSvFpp7mndfMcJQAAAMNxrZHrYuMePoiBX2hJ7tPqZ3KLkqxq1oreyj21tyNGnKpwir68XwQk6j4s0HrKx7ShRXG8n48F9xS/K8PL8Z1SbX6Q1sRJOpN2d2orSK9CAplbCr3VzUvZkrNpvOqTjkytSM47NchdoK8RYaUytuI+K3a8h9OupIxYqXwvhms/UCVsqKTva1/wC9RkqZLrR1MANJXSOqLaHcq4blOM14RlpJ/Ne50mNFwaj635nHOq/HKlj6cZfDVUqb82m17pHdpUO7bfbd+xhlj562xy8H4bdf6Gg9amLyK0d7hv4952X9+BueGrqKnKTtGKu3yONdYG13XxHhvS5LdH2u/UrHyWV41iTBMYxs5GrAVHy5EfBrNVvwRhxWI1cV8yXsqlbUY9Le4rqGJyGyYyZ1Ix1a1tFx0GKRGqS739K92LgdN6rdvd+WDm9JXlT8Glqvkr+h05HnjoNtKNLG0603aCqKN/NNX9z0LFmWU5W+F7DwC4EqajKoMlUGSkY3M5eug6cznPWXU/EpX/S/le33OgTmcq6xcSpYnLfSMIxfg3r+xpq/Zns/VSQXxx8Hb6kmjO8U/ArMLine0t608zPhp2TjybR2OWxMkzHN6CXME5AmQ/DVssyfjIZqbtvtdea1RTOWpaYSvdWYQWGZ80VLmkYrC0Flc4Pg7ryl/wC7gI4k7NxPZVadVfkq05eikm/a56cnV7mbml7nlqpG8ZLmmekejuL7XBYep+qlR+bSRGTTBH6RpRo5b2zO8vQ4NtHE9pVnPg5O3ktF7JHVus7GunGbT/JlXPNKy+mpx1MMBmfKRgnPe+SuLORGxUtFHnv8kaM+MNJXd2XmG0RWYWBYQbHBkkZxXMx3DgNBFIr8RiN6W+Unp7Ik4ieVNkHBr/MflBfcFJtCOXLDlq34veehOhuNdbB0akt+XK/ODcb+x58o91Xlv5fudj6o8TKWElF/lrSS8mk/uZ5xpr9t8FGXHENWitmOUzKkMlFHG3Rq1Wybe5av0ON7YxPb1qkn+eTt9F9jp3S7FdlhqkuLSivV2ftc5Jid916G+mfbLbfpGUXKN18cNH4pGXD4jM/NK/nuG15ZZKqtz0l58RmKhlaqR+F7/A6WC2juuRq0jJQndEbFPS/iNIuSKE7Fd2hKpTEdiZiZWcan+l+T3e5kImId4SXhcy4StmhGXhr58RlxIidw6usbm2Xh2/yTdN/6Kkl9EcNTOm9Xu0EtnVad/wDp4qL9J2f1uRn6Vh7VXWntJzqRp83Kb9NF9X8jQ+0LTpfje0xU+UbR+Su/dlLcMfQy9s6Zg+KTfLRCuVh1JWRaWekyRmIkWZ8w4ms6qXF7QiKql5BUqK11uGXEbalZu0FxfsZY1sqUYLdpfl5c2QYLPU9iz7NKytd+woqm0lz/APr5s6p1QbQX42Gf8tRf7Zf8TmWkVfjwNp6q60lj4pa5o1FJ+GVv6pE5zweF8u5RY5MxCpmPXQ0bMNlMbJjJSORtxrnT27oJcM6v8nY5VKTTs+B1TpvUisNJvfmhbzuvtc5pjqV12kfU69X6ufZ4yMouMk4vc/Z8GR5RaTpv08/2HwWlyQlnX8yXzNmbDs2ppYz1o3TRXYaWWo14lk2BVVT0ZKw0iNid4/DyEr6Wb3EbZFT4ocndGdMr8NPLW87oaYubl/0O2g4PE0r6Sp0p+F4Sev8A5GuXMeExvZVpX3To1Yerjde6XzJynYePslfEZpSm/wA0m/m7jYSuR3ISMxwVmr1Gl7j4V3YxQ1TvxHwaGTJ2jEvx+7GqcfEyZo8vdjIl1yXyExFe0bjnNcEiFjZ3ahfeBxm2fFrvOyvuuWrqZVzbIVGgoK71fsZqMXLvbl+p/wDEaaa3KUrLV8eSXidV6m9lxXa197Vqafi9ZP6I5jniu7Hd7vzZ1nqcqt0K0eCqxfzjr9ETn6Vh7dGBMbcDBu//2Q== alt="Arpit Mahalle">
+            <div class="bio">
+                <p>I'm a web developer with an experience in HTML, CSS, JavaScript, C, Java and Python.</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Food Delivery Web Application Using MERN Stack</h3>
+                <p>User Authentication and Authorization, Restaurant
+                    Management, Reviews and Ratings and Responsive Design</p>
+                    <img src="images/Project1.png" alt="Project 1">
+            </div>
+            <div class="project">
+                <h3>Dental Tumor Segmentation
+                </h3>
+                <p>Use of GLCM, Gabor and LBP for feature extraction, Otsu’s
+                    Thresholding for separating tumor region from background,
+                    RandomForest classifier for dataset training
+                    </p>
+                <img src="images/Project2.png" alt="Project 2">
+            </div>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b264702a-bf9b-4ef3-9e8e-faa356f04928" download>here</a>.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: amahalle2002@gmail.com</p>
+            <p>Phone: +91 7498614837</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Arpit Mahalle. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

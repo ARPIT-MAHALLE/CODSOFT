@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadya Food Delivery App</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AjfwiYuxTtuE7xWOiUmJ0agljIKcFVcpzA&usqp=CAU');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(173, 170, 170, 0.151);
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(46, 21, 21, 0.842);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #130902e1;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #000000;
+            margin-top: 5px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #130202;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #9c5a27;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: #2b0c0c;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        /* Featured Restaurants Section Styles */
+        .restaurants {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .restaurant {
+            display: inline-block;
+            margin: 0 20px;
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .restaurant img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(99, 55, 55, 0.1);
+        }
+
+        .restaurant h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .restaurant p {
+            font-size: 16px;
+            color: hsla(0, 0%, 0%, 0.993);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #251212;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #b42525;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .hero {
+                padding: 80px 0;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .restaurant {
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">Khadya Food Delivery App</div>
+            <div class="tagline">Delicious and tasty food delivered quick and fast</div>
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Discover Great Restaurants Near You</h1>
+            <p>Order food from your favorite local restaurants with Khadya Food Delivery App.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants Section -->
+    <section class="restaurants">
+        <div class="container">
+            <div class="restaurant">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/95/57/af/shreyas-pure-veg-hotel.jpg" alt="Restaurant 1">
+                <h2>MH77 Pure Veg</h2>
+                <p>We’re always in the mood for food.</p>
+            </div>
+            <div class="restaurant">
+                <img src="https://assets.cntraveller.in/photos/6218cfdf6774879c067d3ece/4:3/w_1440,h_1080,c_limit/best%20biryani%20in%20pune%20lead.jpg" alt="Restaurant 2">
+                <h2>Deshmukh Biryani House</h2>
+                <p>Good food and great vibes.</p>
+            </div>
+            <div class="restaurant">
+                <img src="https://impeccabuild.com.au/wp-content/uploads/2020/09/Restaurant-Interior-Design-Themes-ImpeccaBuild-13-scaled.jpg" alt="Restaurant 3">
+                <h2>Graccy Dine Inn</h2>
+                <p>Perfectly light in every bite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Khadya Food Delivery App. All Rights Reserved. Designed by Arpit Mahalle. <a href="#"></a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
